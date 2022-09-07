@@ -1,23 +1,16 @@
 import logo from './logo.svg';
 import './App.css';
-
+import Buoi1 from './buoi1/buoi1';
+import Buoi2 from './buoi2/buoi2';
+import Buoi3 from './buoi3/buoi3';
+import LifeCycle from './buoi3/lifeCycle';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+        {/* <Buoi1/> */}
+        {/* <Buoi2/> */}
+        {/* <Buoi3/> */}
+        <LifeCycle/>
     </div>
   );
 }
